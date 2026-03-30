@@ -1,0 +1,271 @@
+/* .navbar {
+    position: fixed; /* Fixes the element relative to the browser window 
+    top: 0;          /* Positions it at the very top 
+    width: 100%;     /* Ensures it spans the full width of the viewport 
+    margin:0;
+    background-image: linear-gradient(to bottom,rgb(255, 0, 255), rgb(255, 0, 128));
+    z-index: 1000;   /* Ensures it appears above other content 
+} */
+
+.a {
+    color:rgb(3, 199, 0);
+}
+
+.li_er, .a, button {
+    font-size:18px;
+    text-decoration: none;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-image: linear-gradient(to top, rgb(0, 37, 10), rgb(15, 0, 22));
+    margin: 0px;
+    box-shadow: 0px 8px 10px rgb(77, 45, 82);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    cursor:pointer;
+    transition: transform .2s;
+}
+
+.logo:hover {
+    transition: all 0.3s ease 0s;
+    transform: scale(1.09); 
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links, .li_er{
+    display: inline-block;
+    padding:10px;
+}
+
+.nav_links, .li_er, .a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links, .li_er, .a:hover {
+    color:rgb(255, 70, 181);
+}
+
+.li_er:hover {
+    transition: all 0.3s ease 0s;
+    transform: scale(1.09); 
+}
+
+body {
+    background-image: url(tile\ wallpaper.gif);
+    background-size: 20%;
+}
+
+h1 {
+    font-size: 58px;
+    color:rgb(3, 199, 0);
+    transition: transform .2s;
+    text-shadow:
+       3px 3px 0 rgb(195, 250, 255),
+     -1px -1px 0 rgb(195, 250, 255),  
+      1px -1px 0 rgb(195, 250, 255),
+      -1px 1px 0 rgb(195, 250, 255),
+       1px 1px 0 rgb(195, 250, 255);
+}
+
+h2 {
+    font-size: 50px;
+    color:rgb(3, 199, 0);
+    transition: transform .2s;
+    text-shadow:
+       3px 3px 0 rgb(195, 250, 255),
+     -1px -1px 0 rgb(195, 250, 255),  
+      1px -1px 0 rgb(195, 250, 255),
+      -1px 1px 0 rgb(195, 250, 255),
+       1px 1px 0 rgb(195, 250, 255);
+}
+
+h3 {
+    font-size:45px;
+    color:rgb(3, 199, 0);
+    transition: transform .2s;
+    text-shadow:
+       3px 3px 0 rgb(195, 250, 255),
+     -1px -1px 0 rgb(195, 250, 255),  
+      1px -1px 0 rgb(195, 250, 255),
+      -1px 1px 0 rgb(195, 250, 255),
+       1px 1px 0 rgb(195, 250, 255);
+}
+
+h4 {
+    font-size: 40px;
+    color:rgb(3, 199, 0);
+    transition: transform .2s;
+    text-shadow:
+       3px 3px 0 rgb(195, 250, 255),
+     -1px -1px 0 rgb(195, 250, 255),  
+      1px -1px 0 rgb(195, 250, 255),
+      -1px 1px 0 rgb(195, 250, 255),
+       1px 1px 0 rgb(195, 250, 255);
+}
+
+h5 {
+    font-size: 35px;
+    color:rgb(3, 199, 0);
+    transition: transform .2s;
+    text-shadow:
+       3px 3px 0 rgb(195, 250, 255),
+     -1px -1px 0 rgb(195, 250, 255),  
+      1px -1px 0 rgb(195, 250, 255),
+      -1px 1px 0 rgb(195, 250, 255),
+       1px 1px 0 rgb(195, 250, 255);
+}
+
+h6 {
+    font-size:21px;
+    color:rgb(3, 199, 0);
+    transition: transform .2s;
+    text-shadow:
+       3px 3px 0 rgb(195, 250, 255),
+     -1px -1px 0 rgb(195, 250, 255),  
+      1px -1px 0 rgb(195, 250, 255),
+      -1px 1px 0 rgb(195, 250, 255),
+       1px 1px 0 rgb(195, 250, 255);
+}
+
+p {
+    font-size:21px;
+    color:rgb(137, 255, 151);
+    transition: transform .2s;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+    transition: all 0.3s ease 0s;
+    transform: scale(1.4); 
+}
+
+p:hover {
+    transition: all 0.3s ease 0s;
+    transform: scale(1.03); 
+}
+
+@font-face {
+    font-family: 'InvaderFont'; /* Choose a name for your font */
+    src: url('invader_zim/INVADER.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'IrkenLang';
+    src: url('irken-font/Irken-aoqE.ttf') format('truetype');
+}
+
+.ingenious {
+    font-family: 'IrkenLang';
+}
+
+.default {
+    font-family: 'InvaderFont';
+}
+
+.th {
+    font-family: 'IrkenLang';
+    font-size: 35px;
+    color: rgb(255, 70, 181);
+}
+
+.td {
+    font-family: 'InvaderFont';
+    font-size: 35px;
+    color: rgb(0, 194, 126);
+}
+
+table, th, td  {
+    border:4px rgb(136, 43, 136) solid;
+    background-color: rgba(255, 194, 255, 0.6);
+}
+
+.yellow {
+    color: rgb(26, 255, 0);
+    text-decoration:underline;
+    transition: transform .2s;
+}
+
+.yellow:visited {
+    color: rgb(255, 70, 181);
+    transition: all 0.3s ease 0s;
+}
+
+.yellow:hover {
+    color: rgb(34, 0, 255);
+    transition: all 0.3s ease 0s;
+}
+
+.realization {
+    font-family: 'InvaderFont';
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+   color: rgb(195, 250, 255);
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+/*credit for stroke: https://css-tricks.com/adding-stroke-to-web-text/ */
+}
+
+
+ul li::marker {
+  content: "➢";
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  transition: transform .2s;
+}
+
+ul li:hover {
+    transition: all 0.3s ease 0s;
+    transform: scale(1.03);
+}
+
+@font-face {
+    font-family: 'HomemadeApple';
+    src: url('Homemade_Apple/HomemadeApple-Regular.ttf') format('truetype');
+}
+
+.zib {
+    color:blue;
+    font-family: 'HomemadeApple';
+    font-size:25px;
+    -webkit-text-stroke: 1px rgb(161, 161, 255);
+   color: blue;
+   text-shadow:
+       3px 3px 0 #240046,
+     -1px -1px 0 #240046,  
+      1px -1px 0 #240046,
+      -1px 1px 0 #240046,
+       1px 1px 0 #240046;
+}
+
+audio {
+  border: 3px solid rgb(239, 72, 239);
+  border-radius: 40px;
+  padding: 10px;
+  background-color: rgb(255, 194, 255);
+  outline:none;
+}
+
+audio::-webkit-media-controls-panel {
+    color:yellow;
+}
+
+audio::-webkit-media-play-button {
+    background-color:yellow;
+    border-radius: 40px;
+}
+
